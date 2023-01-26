@@ -1,0 +1,10 @@
+max 96 cursors - tutorial
+1. right click the max 96 installer (.inf) file, and then click "install".
+2. go to settings
+3. click "themes" or "personalization"
+4. find "cursor"
+5. Open the advanced cursor settings
+6. Click the "Pointers" tab and choose "max 96 design"
+7. enjoy
+
+i hope that you enjoy that cursor pack, in the future i will create an app.

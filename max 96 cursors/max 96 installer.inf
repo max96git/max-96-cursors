@@ -1,0 +1,54 @@
+; max 96
+; michieldb.nl
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+cursor.cur
+help.cur
+background.ani
+wait.ani
+beam.cur
+forbidden.cur
+size NS.cur
+size.cur
+size NwSe.cur
+size NeSw.cur
+move.cur
+hand.cur
+precise.cur
+pen.cur
+alt.cur
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "Cursors\max 96 design"
+SCHEME_NAME   = "max 96 design"
+pointer       = "cursor.cur"
+help          = "help.cur"
+work          = "background.ani"
+busy          = "wait.ani"
+text          = "beam.cur"
+unavailiable  = "forbidden.cur"
+vert          = "size NS.cur"
+horz          = "size.cur"
+dgn1          = "size NwSe.cur"
+dgn2          = "size NeSw.cur"
+move          = "move.cur"
+link          = "hand.cur"
+cross         = "precise.cur"
+hand          = "pen.cur"
+alternate     = "alt.cur"
